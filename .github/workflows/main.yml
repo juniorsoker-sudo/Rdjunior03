@@ -1,4 +1,4 @@
-Python-Dev-Ultra-Persistence-v28
+name: Python-Dev-Ultra-Persistence-v28
 
 on:
   workflow_dispatch:
@@ -75,4 +75,3 @@ jobs:
               }
               Start-Sleep -Seconds 5
           }
-        
